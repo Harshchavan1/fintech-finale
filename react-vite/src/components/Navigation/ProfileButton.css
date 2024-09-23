@@ -1,0 +1,57 @@
+.profile-btn {
+  position: relative;
+  display: flex;
+  align-items: centeer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 45px;
+  right: 5px;
+  background-color: var(--light-grey-color);
+  border: 1px solid var(--grey-border);
+  border-radius: 5px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  /* padding: 10px; */
+  z-index: 1;
+}
+
+.profile-dropdown p {
+  height: 20px;
+  padding: 10px;
+
+}
+
+.profile-dropdown p:hover {
+  cursor: pointer;
+  background-color: var(--grey-border);
+
+}
+
+.profile-dropdown p:first-child {
+  cursor: default;
+  background-color: var(--light-grey-color);
+
+}
+
+.profile-dropdown p:first-child {
+  border-bottom: 1px solid var(--grey-border);
+}
+
+.profile-dropdown p:last-child {
+  border-top: 1px solid var(--grey-border);
+}
+
+.nav-btn-container {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.nav-links-container-wrapper {
+    display: flex;
+    align-items: centeer;
+}

@@ -1,0 +1,7 @@
+.line-chart {
+  width: 99%;
+  /* border: 1px solid white; */
+  max-width: 1100px;
+  height: 300px;
+  max-height: 400px;
+}
