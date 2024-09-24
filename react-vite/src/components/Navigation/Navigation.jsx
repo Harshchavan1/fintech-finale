@@ -12,7 +12,7 @@ function Navigation() {
         <div className="nav-container">
             <div>
                 <NavLink className="homepage-logo-sec" to="/">
-                    {!sessionUser && <span className="logo-title">Theta</span>}
+                    {!sessionUser && <span className="logo-title">BullRun</span>}
                     <img className="logo" src={'/images/logo_white.png'} alt='logo' />
                 </NavLink>
             </div>
