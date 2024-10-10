@@ -60,8 +60,8 @@ function ProfileButton() {
           <button className={navLinkClassName} onClick={() => navigate('/stocks')}>
             Stocks
           </button>
-          <button className={navLinkClassName} onClick={() => alert('Notifications')}>
-            Notifications
+          <button className={navLinkClassName} onClick={() => navigate('./Networth')}>
+            Networth
           </button>
           <button className={navLinkClassName} onClick={toggleMenu}>
             Account
